@@ -1,0 +1,46 @@
+.token {
+  width: 3000px;
+  box-shadow: 0 8px 16px rgba(8, 8, 8, 0.3);
+  padding: 2px 16px;
+  margin: 16px;
+  border-radius: 8px;
+}
+
+img {
+  border: 0.3px rgba(#080808);
+  box-shadow: 10px 10px 8px rgba(#080808);
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  margin-top: 10px;
+}
+
+.container-filled {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 15%;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  width: 100%;
+  margin: 0;
+  animation: gradientBG 10s ease infinite;
+  background-size: 100% 100%;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  0% {
+    background-position: 100% 50%;
+  }
+
+  0% {
+    background-position: 0% 50%;
+  }
+}
