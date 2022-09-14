@@ -10,6 +10,6 @@ Make sure you are in the source file.
 3. Metamask.io (hooked up on the browser)
 
 
---Onemli Notlar
+
 \*package.json => JSON (JavaScript Object Notation)..It is opening an object in the form of JavaScript...It has all the information we need in order for our project to run successfully(name,version,dependencies etc...)
 \*package-lock.json => It locks the versions of the dependencies...
